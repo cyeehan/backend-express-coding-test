@@ -1,0 +1,73 @@
+@local_api=http://localhost:3000
+
+### ------ Assignment 1 ------
+# One payment per week
+POST {{local_api}}/tickets/oneSettlementPerWeek HTTP/1.1
+Content-Type: application/json
+
+{
+  "end": "10-02-2020"
+}
+
+### Two payment per week
+POST {{local_api}}/tickets/twoSettlementPerWeek HTTP/1.1
+Content-Type: application/json
+
+{
+  "start": "03-02-2020",
+  "end": "07-02-2020"
+}
+
+
+### ------ Assignment 2 ------
+POST {{local_api}}/tickets/calculateSettlementAmount HTTP/1.1
+Content-Type: application/json
+
+[
+  {
+    "ticketId": "TE231023-23",
+    "price" : 100,
+    "MDR" : 2.33
+  },
+  {
+    "ticketId": "KE23D0S3-J3",
+    "price" : 231,
+    "MDR" : 5.34
+  },
+  {
+    "ticketId": "LDL40S3-U3",
+    "price" : 659,
+    "MDR" : 6.31 
+  }
+] 
+
+// ------ Assignment 3: GET,POST,PUT,DELETE ------
+### GET
+GET {{local_api}}/tickets HTTP/1.1
+
+### POST
+POST {{local_api}}/tickets HTTP/1.1
+Content-Type: application/json
+
+{
+  "ticketId":"TES8582-99",
+  "price": "850.10",
+  "MDR" : "3.0",
+  "currency" : "MYR",
+  "travelAgentName" : "SPLIT-TEST-AGENT05"
+}
+
+### UPDATE
+@id=TES8582-99
+PUT {{local_api}}/tickets/{{id}} HTTP/1.1
+Content-Type: application/json
+
+### DELETE
+@id=TES8582-99
+DELETE {{local_api}}/tickets/{{id}} HTTP/1.1
+Content-Type: application/json
+
+// ------ Assignment 4 ------
+
+### One payment per week
+GET {{local_api}}/crashApp HTTP/1.1
