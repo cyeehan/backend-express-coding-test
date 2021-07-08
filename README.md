@@ -6,7 +6,9 @@ I really enjoyed this coding test so much, and learned new cool stuff within 4 h
 
 This repository contains the questions and the complete solutions in 2 separate folders obviously.
 
-**Things I learned**
+Feel free to clone and practice Express.js backend web development, happy coding!
+
+**Things I learned:**
 
 - more clean codes
 - explored new libraries
