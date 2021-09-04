@@ -1,20 +1,35 @@
-# Disclaimer
+# ❗️ Disclaimer
 
-This is a backend coding test I passed with 100% in April 2021 for a full-time position as a junior full-stack developer in a Singapore startup company, and lastly received a job offer which I'm grateful for to potentially kickstart my career just after my undergraduate graduation.
+This is a backend coding test I passed with 100% in April 2021 for a full-time position as a **junior full-stack developer** in a Singapore startup company, and lastly received a job offer which I'm grateful for to potentially kickstart my career just after my internship. I really enjoyed this coding test so much, and learned new cool stuff within 4 hours given.
 
-I really enjoyed this coding test so much, and learned new cool stuff within 4 hours given.
+This repository contains the **questions** and **complete solutions** in 2 separate folders:
 
-This repository contains the questions and the complete solutions in 2 separate folders obviously.
+- `backend-coding-test`
+- `backend-coding-test-complete`
 
-Feel free to clone and practice Express.js backend web development, happy coding!
+### ⚙️ How did I solve?
 
-**Things I learned:**
+- Googling skills
+- Good fundamental knowledge of Node.js from recent internship
+- Make use of 3rd-party libraries for solving API-related challenges
+- Interest and the drive in full-stack web development
 
-- more clean codes
-- explored new libraries
-- of course, backend knowledge
+### 📔 Things I learned
 
-# Running the project
+- Cleaner codes
+- Explored new libraries: `moment`, `sqlite3`, `supertest`
+- Problem-solving skills
+- Design patterns
+
+> At last, I didn't decide to join the company and stay in Malaysia despite the fact that the compensation is great for a junior like me, but I'm very thankful for every opportunities I received.
+
+---
+
+Feel free to clone and practice **Express.js backend web development**.
+
+Happy coding! 🧘‍♂️
+
+# 🚀 Running the project
 
 To run the project:
   * Clone the git repository
@@ -24,7 +39,7 @@ To run the project:
 
 ---
 
-# Problem Description
+# ❓ Problem Description
 
 Some number of travellers  chooses to pay for airplane tickets on one of our travel partner's websites using Split.
 
